@@ -1,6 +1,8 @@
 body {background-color:white;}
 .big{font-size:40px;}
-a{text-decoration:none;}
+a{
+  display: inline-block;
+  text-decoration:none;}
 
 .btn-flat-border-toushu {
   display: inline-block;
