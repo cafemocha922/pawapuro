@@ -85,3 +85,51 @@ a{
   background: white;			/*マウスをかざしたときの背景色*/
   color: black;					/*その時の文字色*/
 }
+
+.tytle-ver {
+  position: relative;
+  padding-left: 25px;
+}
+
+.tytle-ver:before {
+  position: absolute;
+  content: '';
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border: none;
+  border-left: solid 15px transparent;
+  border-bottom: solid 15px rgb(119, 195, 223);
+}
+.tytle-ver:after {
+  position: absolute;
+  content: '';
+  bottom: -3px;
+  left: 10px;
+  width: 100%;
+  border-bottom: solid 3px rgb(119, 195, 223);
+}
+
+.tytle-ver0 {
+  position: relative;
+  color: #333;
+  text-shadow: 0 0 2px white;
+  background: #e0f3ff;
+  z-index: -4;
+  border-radius: 0 10px 10px;
+}
+
+.tytle-ver0:before {
+  content: "";
+  position: absolute;
+  background: #9de5ff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  top: 50%;
+  left: -15px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: -1;
+}
