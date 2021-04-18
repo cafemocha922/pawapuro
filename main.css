@@ -1,4 +1,6 @@
-body {background-color:white;}
+body {background-color:white;
+font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
 .big{font-size:40px;}
 
 a{
