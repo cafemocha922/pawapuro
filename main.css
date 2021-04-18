@@ -135,3 +135,10 @@ a{
   transform: translateY(-50%);
   z-index: -1;
 }
+.line-p {
+  text-decoration: underline solid red;
+}
+
+.line-f {
+  text-decoration: underline solid green;
+}
